@@ -41,3 +41,10 @@ function sayHello(): void {
 }
 
 //argument types
+function multiply(value1: number, value2: number): number {
+  return value1 * value2;
+}
+
+let myMultiply: (val1: number, val2: number) => number;
+myMultiply = multiply;
+myMultiply(5, 2);
