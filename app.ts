@@ -1,5 +1,5 @@
 let myName = 'Roman';
 
-let myRealAge: any;
-myRealAge = '24';
+let myRealAge: number;
+//myRealAge = '24';
 myRealAge = 24;
