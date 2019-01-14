@@ -11,4 +11,5 @@ let hobbies: any[] = ['Web Development', 'Climbing'];
 hobbies = [100];
 //hobbies = 100;
 
-console.log(hobbies[0]);
+//tuples
+let address: [string, number] = ['Superstreet', 99];
