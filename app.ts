@@ -1,1 +1,5 @@
-console.log("It works!");
+let myName = 'Roman';
+
+let myRealAge: any;
+myRealAge = '24';
+myRealAge = 24;
