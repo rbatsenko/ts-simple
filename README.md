@@ -1,4 +1,4 @@
-##How to use
+## How to use
 
 1. Run "npm install" to install the required dependencies
 2. Run "tsc" to compile the TypeScript code
