@@ -1,5 +1,5 @@
 //string
-let myName = 'Roman';
+let myName: string = 'Roman';
 
 //number
 let myRealAge: number;
@@ -27,3 +27,17 @@ console.log(myColor);
 //any
 let car: any = 'BMW';
 console.log(car);
+
+//function
+function returnMyName(): string {
+  return myName;
+}
+
+console.log(returnMyName());
+
+//void
+function sayHello(): void {
+  console.log('Hello!');
+}
+
+//argument types
