@@ -1,3 +1,5 @@
+/* Learning Types
+
 //string
 let myName: string = 'Roman';
 
@@ -91,3 +93,22 @@ let canBeNull: number | null = 12;
 canBeNull = null;
 let canAlsoBeNull: number | null;
 canAlsoBeNull = null;
+
+Learning Types END */
+
+let bankAccount = {
+  money: 2000,
+  deposit(value) {
+    this.money += value;
+  }
+};
+
+let myself = {
+  name: 'Roman',
+  bankAccount: bankAccount,
+  hobbies: ['Sports', 'Cooking'],
+}
+
+myself.bankAccount.deposit(3000);
+
+console.log(myself);
