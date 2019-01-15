@@ -74,3 +74,20 @@ let complex2: Complex = {
 let myRealRealAge: number | string = 24;
 myRealRealAge = '24';
 //myRealRealAge = true;
+
+//check types
+let finalValue = 'A string';
+if (typeof finalValue == 'string') {
+  console.log('string');
+}
+
+//never type
+function neverReturns():never {
+  throw new Error('An error!');
+}
+
+//Nullable types
+let canBeNull: number | null = 12;
+canBeNull = null;
+let canAlsoBeNull: number | null;
+canAlsoBeNull = null;
