@@ -1,4 +1,5 @@
-/* Learning Types
+/* 
+--- Learning Types
 
 //string
 let myName: string = 'Roman';
@@ -94,7 +95,10 @@ canBeNull = null;
 let canAlsoBeNull: number | null;
 canAlsoBeNull = null;
 
-Learning Types END */
+--- Learning Types END */
+
+/*
+--- Exercise (Explicit Types)
 
 let bankAccount = {
   money: 2000,
@@ -104,6 +108,32 @@ let bankAccount = {
 };
 
 let myself = {
+  name: 'Roman',
+  bankAccount: bankAccount,
+  hobbies: ['Sports', 'Cooking'],
+}
+
+*/
+
+type BankAccount = {
+  money: number,
+  deposit: (value: number) => void
+}
+
+type Person = {
+  name: string,
+  bankAccount: BankAccount,
+  hobbies: string[],
+}
+
+let bankAccount: BankAccount = {
+  money: 2000,
+  deposit(value) {
+    this.money += value;
+  }
+};
+
+let myself: Person = {
   name: 'Roman',
   bankAccount: bankAccount,
   hobbies: ['Sports', 'Cooking'],
