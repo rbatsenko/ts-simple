@@ -45,6 +45,19 @@ function multiply(value1: number, value2: number): number {
   return value1 * value2;
 }
 
+//function types
 let myMultiply: (val1: number, val2: number) => number;
 myMultiply = multiply;
 myMultiply(5, 2);
+
+//objects
+let userData: { name: string, age: number } = {
+  name: 'Roman',
+  age: 24
+};
+
+//complex object
+let complex: {data: number[], output: (all: boolean) => number[]} = {
+  data: [100, 3.99, 10],
+  output: (all: boolean) => this.data
+}
