@@ -1,4 +1,4 @@
-/*  --- Learning Types --- */
+/*  --- Learning Types ---------------------------------------- */
 
 //string
 let myName: string = 'Roman';
@@ -93,3 +93,7 @@ let canBeNull: number | null = 12;
 canBeNull = null;
 let canAlsoBeNull: number | null;
 canAlsoBeNull = null;
+
+
+
+/*  --- Learning TypeScript Compatible ES6 ---------------------------------------- */
