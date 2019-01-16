@@ -19,8 +19,8 @@ let address: [string, number] = ['Superstreet', 99];
 //enums
 enum Color {
   Grey, // 0
-  Green = 100, // 1
-  Blue = 2// 2
+  Green = 100, // 100
+  Blue = 2// 101
 }
 
 let myColor: Color = Color.Green;
